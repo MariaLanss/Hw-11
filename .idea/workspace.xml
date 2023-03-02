@@ -21,6 +21,19 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="882f982b-9f6d-4fad-b766-02e1297e72f6" />
+        <option name="url" value="https://github.com/MariaLanss/Hw-11.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,6 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Zoyun/IdeaProjects/Hw-11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,7 +65,10 @@
       <option name="presentableId" value="Default" />
       <updated>1677665331100</updated>
       <workItem from="1677665332098" duration="1562000" />
-      <workItem from="1677685248414" duration="1523000" />
+      <workItem from="1677685248414" duration="1895000" />
+      <workItem from="1677700390196" duration="44000" />
+      <workItem from="1677700660008" duration="86000" />
+      <workItem from="1677751476437" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="Домашка">
       <created>1677665394618</created>
@@ -67,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677666872654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Домашка">
+      <created>1677687015224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677687015224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

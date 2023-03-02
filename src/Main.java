@@ -12,7 +12,8 @@ public class Main {
         // Задача 3
         System.out.println("Задача 3");
         int deliveryDistance = 95;
-        numberOfDeliveryDays(deliveryDistance);
+        int countDeliveryDays = numberDeliveryDays(deliveryDistance);
+        System.out.println("Потребуется дней " + countDeliveryDays);
     }
 
 
@@ -39,15 +40,17 @@ public class Main {
         }
     }
 
-    public static void numberOfDeliveryDays(int deliveryDistance) {
-        int numberInterval = (deliveryDistance - 20) / 40;
-        int d = (deliveryDistance - 20) % 40;
+    public static int numberDeliveryDays(int deliveryDistance) {
+        int deliveryDays = 4;
         if (deliveryDistance <= 20) {
-            System.out.println("Доставка займет сутки");
-        } else if (d > 0) {
-            System.out.println("Доставка займет " + (numberInterval + 2) + " суток");
-        } else {
-            System.out.println("Доставка займет " + (numberInterval + 1) + " суток");
+            deliveryDays = 1;
         }
+        if (deliveryDistance > 20 && deliveryDistance <= 60) {
+            deliveryDays = 2;
+        }
+        if (deliveryDistance > 60 && deliveryDistance <= 100) {
+            deliveryDays = 3;
+        }
+        return deliveryDays;
     }
 }
